@@ -1,6 +1,7 @@
 var timeDisplayEl = $('#current-date');
+
 //records current hour
-var hour = moment().format('h')
+var hour = moment().format('H')
 
 // gets the current date
 function displayDate() {
@@ -8,4 +9,3 @@ function displayDate() {
     timeDisplayEl.text(date);
 }
 
- 
