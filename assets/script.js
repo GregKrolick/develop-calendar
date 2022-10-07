@@ -28,7 +28,12 @@ $('.time-block').each(function(){
     })
 
 
-// pulls from local storage previously saved descriptions
+
+
+    
+
+// pulls from local storage perviously saved descriptions
+
 $("#9 .description").val(localStorage.getItem("9AM"));
 $("#10 .description").val(localStorage.getItem("10AM"));
 $("#11 .description").val(localStorage.getItem("11AM"));
